@@ -1,0 +1,24 @@
+.container{
+    width: 60px;
+    height: 140px;
+    margin: 20px;
+    display: inline-block;
+    
+}
+
+.A{
+    width: 100%;
+    height: 140px;
+}
+
+.longrectangle{
+    width: 20px;
+    height: 140px;
+    background-color: black
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
