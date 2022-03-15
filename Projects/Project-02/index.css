@@ -1,0 +1,781 @@
+.container{
+    width: 80px;
+    height: 140px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.container2{
+    width: 120px;
+    height: 140px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.short-word{
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.long-word{
+    width: 800px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.baseball-container{
+    width: 100%;
+    height: 200px;
+    animation: baseball-animate 2s  ease infinite;
+}
+
+.bananza-container{
+    width: 100%;
+    height: 200px;
+    animation: baseball-animate 1s ease infinite reverse;
+}
+.opening{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top:-1200px;
+    animation: baseball-animate 2s  ease infinite;
+}
+
+.opening2{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: -1200px;
+    animation: baseball-animate 1s ease infinite reverse;
+}
+
+.ATLANTA{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: -218px;
+    opacity: 100%;
+}
+
+.BRAVES{
+    width: 100%;
+    height: 200px;
+    background-color: #fce076;
+    filter: invert(1);
+}
+
+.PHILLIES{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    top: -200px;
+}
+.PHILADELPHIA{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    
+    position: relative;
+    top: -400px;
+}
+
+.ORIOLES{
+    width: 100%;
+    height: 198px;
+    position: relative;
+    top: -400px;
+    background-color: #ff8c00;
+    
+}
+
+
+.BALTIMORE{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    top: -600px;
+}
+
+.REDSOX{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: -600px;
+}
+.BOSTON{
+    width: 100%;
+    height: 200px;
+    background-color: cyan;
+    position: relative;
+    top: -800px;
+    opacity: 100%;
+    filter: invert(1);
+    
+    
+}
+
+.YANKEES{
+    width: 100%;
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+    position: relative;
+    filter: invert(1);
+    top: -800px;
+    opacity: 100%;
+    
+    
+}
+
+.NEWYORK{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    top: -1000px;
+    opacity: 100%;
+    
+    
+}
+
+.METS{
+    width: 100%;
+    height: 200px;
+    background-color: orangered;
+    position: relative;
+    top: -1000px;
+    opacity: 100%;
+      
+}
+
+.NEWYORK2{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    filter: invert(1);
+    position: relative;
+    top: -1200px;
+    opacity: 100%;
+    
+    
+}
+
+
+
+
+
+.longrectangle{
+    width: 20px;
+    height: 120px;
+    background-color: black;
+    display: inline-block;
+    margin:  -2px;
+}
+
+.Crec{
+    width: 20px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    margin:  -2px;
+    bottom: 20px;
+}
+
+.fullrectangle{
+    width: 20px;
+    height: 140px;
+    background-color: black;
+    display: inline-block;
+    margin:  -2px;
+}
+
+.A-stem{
+	width: 25px;
+	height: 113px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+	bottom: 20px;
+	margin-right: -10px;
+}
+
+
+
+.square{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin:  -2px;
+}
+
+
+
+
+.square-transparent{
+    width: 22px;
+    height: 22px;
+    background-color: black;
+    margin:  0 -2px;
+    opacity: 0;
+}
+
+
+.rectangle-transparent{
+    width: 22px;
+    height: 45px;
+    background-color: blue;
+    margin:  0 -2px;
+    opacity: 0;
+}
+
+.shortrec{
+    width: 20px;
+    height: 83px;
+    background-color: black;
+    display: inline-block;
+    margin:  -2px;
+    bottom: 20px;
+}
+
+
+.bothcounters{
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 0px;
+	margin-right: -10px; 
+    
+    
+}
+
+.counter{
+	display: inline-flex;
+	flex-direction: column-reverse;
+	align-items: center;
+   
+}
+
+.counter1{
+	display: inline-flex;
+	flex-direction: column-reverse;
+	align-items: center;
+    animation: rotation 2s infinite linear;
+   
+}
+
+.middle-counter .square{
+	display: inline-block;
+}
+
+.middle-counter .square-transparent{
+	display: inline-block;
+}
+
+.C-three{
+    width: 25px;
+	height: 100px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 20px;
+	margin-right: -10px;
+}
+.C-two{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 0px;
+	margin-right: -10px;   
+}
+
+.centerthisrec{
+       width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 20px;
+	margin-right: -10px; 
+}
+
+.E-two{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 0px;
+	margin-right: -10px;   
+}
+
+.E-three{
+    width: 25px;
+	height: 100px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 20px;
+	margin-right: -10px;   
+}
+
+.fsquare{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 20px;
+	margin-right: -10px;
+}
+
+.f-two{
+    width: 25px;
+	height: 115px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 20px;
+	margin-right: -10px;   
+}
+
+.f-end{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+   bottom: 100px;
+	margin-right: -10px;   
+}
+
+.p-counter{
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    align-items: center;
+    bottom: 80px;
+	margin-right: -10px; 
+    
+}
+
+.hsquare2{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 50px;
+	margin-right: -10px;   
+}
+
+.hsquare{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+    bottom: 30px;
+	margin-right: -10px;   
+}
+.hsquare3{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 0px;
+	margin-right: -10px;   
+}
+
+.rectanglej{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 20px;
+	margin-right: -10px;   
+}
+
+.rectanglel{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 0px;
+	margin-right: -10px;   
+}
+
+.k-end{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 32px;
+	margin-right: -10px;   
+}
+
+.M-top{
+	width: 25px;
+	height: 113px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+	bottom: 118px;
+	margin-right: -10px;
+}
+
+.stem-dot{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 0px;
+	margin-right: -10px;   
+}
+
+.rectanglex{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 0px;
+   margin-right: -8px;   
+    margin-left: -8px;
+}
+
+.xmiddle{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 63px;
+ 
+}
+
+
+.y-stem{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 0px;
+}
+
+.eight-stem{
+    width: 25px;
+	height: 44px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+    bottom: 7px;
+    margin-left: 23px;
+}
+
+
+.middle{
+    width: 25px;
+	height: 138px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 0px;
+}
+
+.two-end{
+    width: 25px;
+	height: 138px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+    margin-left: -9px;
+    bottom: 0px;
+}
+
+.y-middle{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    margin-right: -8px;
+    bottom: 107px;
+  
+}
+
+.four-middle{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    margin-right: -8px;
+    bottom: 100px;
+  
+}
+
+
+.y-start{
+	width: 25px;
+	height: 113px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+	bottom: 124px;
+	margin-right: -10px;
+}
+
+.four-start{
+	width: 25px;
+	height: 113px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+	bottom: 118px;
+	margin-right: -10px;
+}
+
+.t-lower{
+	width: 25px;
+	height: 113px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+	bottom: 85px;
+	margin-right: -10px;
+}
+
+.t-upper{
+	width: 25px;
+	height: 113px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+	bottom: 100px;
+	margin-right: -10px;
+}
+
+.s-one{
+    width: 25px;
+	height: 118px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 0px;
+	margin-right: -10px;   
+}
+.s-long{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 0px;
+	margin-right: -10px;   
+}
+
+.s-three{
+    width: 25px;
+	height: 120px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 20px;
+	margin-right: -10px;   
+}
+
+.g-one{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+   bottom: 100px;
+	margin-right: -10px;   
+}
+
+.g-two{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 20px;
+	margin-right: -10px;   
+}
+
+.g-three{
+    width: 25px;
+	height: 115px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+   bottom: 0px;
+	margin-right: -10px;   
+}
+
+.g-end{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 20px;
+	margin-right: -10px;   
+}
+
+.i-one{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 105px;
+	margin-right: -10px;   
+}
+
+.i-two{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 0px;
+	margin-right: -10px;   
+}
+
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+.baseball-container:hover{
+    background-color: red;
+}
+
+.ATLANTA:hover{
+    background-color: navy;
+    opacity: 0%;   
+}
+
+
+
+.PHILADELPHIA:hover{
+    background-color: red;
+    opacity: 0%;
+    
+}
+
+
+.baseball-container > .container{
+   filter: invert(1);
+    animation: opening 1s ease infinite reverse;
+}
+.bananza-container > .container{
+   filter: invert(1);
+    animation: opening 1s ease infinite reverse;
+}
+
+.opening > .container{
+   filter: invert(1);
+    animation: opening 1s ease infinite reverse;
+}
+
+.opening2 > .container{
+   filter: invert(1);
+    animation: opening 1s ease infinite reverse;
+}
+
+.BALTIMORE:hover{
+    opacity: 0%;
+}
+
+@keyframes baseball-animate{
+    0%{background-color: yellow;}
+    15%{background-color: lime;}
+    30%{background-color: red;}
+    45%{background-color: blue;}
+    70%{background-color: red;}
+    90%{background-color: hotpink;}
+    100%{background-color: white;}
+    
+}
+
+
+
+
+@keyframes opening{
+    0%{filter: invert(1);}
+    15%{filter: invert(0);}
+    30%{filter: invert(1);}
+    45%{filter: invert(0);}
+    70%{filter: invert(1);}
+    90%{filter: invert(0);}
+    100%{filter: invert(1);}
+    
+}
+.BOSTON:hover {
+    opacity: 0%;
+}
+
+.NEWYORK:hover {
+    opacity: 0%;
+}
+
+.NEWYORK2:hover {
+    opacity: 0%;
+}
+
+
+
