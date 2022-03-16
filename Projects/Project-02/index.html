@@ -9,7 +9,7 @@
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 </head> 
 <body>
-    
+     
 <!-- BASEBALL -->
     
 <div class="baseball-container">
@@ -2285,7 +2285,7 @@
     
         
     
-        
+     
         
         
         
@@ -2945,9 +2945,17 @@
     
 </body>
 
+<div class="bouncearound">
+<img src="download-10.gif" class="gif">  
+</div>
+    
+    
+</div>
 
-
-
-
+<script>
+  $(document).mousemove(function (e) {
+      $(".bouncearound").css({ left: e.pageX, top: e.pageY });
+    });
+</script>
 
 </html>
