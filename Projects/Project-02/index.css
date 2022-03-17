@@ -30,12 +30,17 @@
     width: 100%;
     height: 200px;
     animation: baseball-animate 2s  ease infinite;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    
 }
 
 .bananza-container{
     width: 100%;
     height: 200px;
     animation: baseball-animate 1s ease infinite reverse;
+       display: inline-flex;
+    flex-wrap: nowrap;
 }
 .opening{
     width: 100%;
@@ -43,6 +48,8 @@
     position: relative;
     top:-1200px;
     animation: baseball-animate 2s  ease infinite;
+        display: inline-flex;
+    flex-wrap: nowrap;
 }
 
 .opening2{
@@ -51,6 +58,8 @@
     position: relative;
     top: -1200px;
     animation: baseball-animate 1s ease infinite reverse;
+        display: inline-flex;
+    flex-wrap: nowrap;
 }
 
 .ATLANTA{
@@ -58,8 +67,10 @@
     height: 200px;
     background-color: red;
     position: relative;
-    top: -218px;
+    top: -200px;
     opacity: 100%;
+    display: inline-flex;
+    flex-wrap: nowrap;
 }
 
 .BRAVES{
@@ -67,6 +78,8 @@
     height: 200px;
     background-color: #fce076;
     filter: invert(1);
+        display: inline-flex;
+    flex-wrap: nowrap;
 }
 
 .PHILLIES{
@@ -75,14 +88,17 @@
     background-color: white;
     position: relative;
     top: -200px;
+        display: inline-flex;
+    flex-wrap: nowrap;
 }
 .PHILADELPHIA{
     width: 100%;
     height: 200px;
     background-color: red;
-    
     position: relative;
     top: -400px;
+    display: inline-flex;
+    flex-wrap: nowrap;
 }
 
 .ORIOLES{
@@ -91,6 +107,8 @@
     position: relative;
     top: -400px;
     background-color: #ff8c00;
+    display: inline-flex;
+    flex-wrap: nowrap;
     
 }
 
@@ -101,6 +119,8 @@
     background-color: white;
     position: relative;
     top: -600px;
+        display: inline-flex;
+    flex-wrap: nowrap;
 }
 
 .REDSOX{
@@ -109,6 +129,8 @@
     background-color: red;
     position: relative;
     top: -600px;
+        display: inline-flex;
+    flex-wrap: nowrap;
 }
 .BOSTON{
     width: 100%;
@@ -118,6 +140,8 @@
     top: -800px;
     opacity: 100%;
     filter: invert(1);
+        display: inline-flex;
+    flex-wrap: nowrap;
     
     
 }
@@ -130,6 +154,8 @@
     filter: invert(1);
     top: -800px;
     opacity: 100%;
+        display: inline-flex;
+    flex-wrap: nowrap;
     
     
 }
@@ -141,6 +167,8 @@
     position: relative;
     top: -1000px;
     opacity: 100%;
+        display: inline-flex;
+    flex-wrap: nowrap;
     
     
 }
@@ -152,17 +180,21 @@
     position: relative;
     top: -1000px;
     opacity: 100%;
+        display: inline-flex;
+    flex-wrap: nowrap;
       
 }
 
 .NEWYORK2{
     width: 100%;
-    height: 200px;
+    height: 210px;
     background-color: white;
     filter: invert(1);
     position: relative;
-    top: -1200px;
+    top: -1210px;
     opacity: 100%;
+        display: inline-flex;
+    flex-wrap: nowrap;
     
     
 }
@@ -267,9 +299,18 @@
 
 .counter1{
 	display: inline-flex;
+    flex-wrap: nowrap;
 	flex-direction: column-reverse;
 	align-items: center;
     animation: rotation 2s infinite linear;
+    
+   
+}
+
+.counterp{
+	display: inline-flex;
+	flex-direction: column-reverse;
+	align-items: center;
    
 }
 
@@ -289,16 +330,18 @@
 	justify-content: space-between;
 	position: relative;
     bottom: 20px;
-	margin-right: -10px;
+	margin-left: 3px;
+    top: 20px;
 }
 .C-two{
     width: 25px;
-	height: 140px;
+	height: 135px;
 	display: inline-flex;
 	flex-direction: column-reverse;
 	justify-content: space-between;
 	position: relative;
     bottom: 0px;
+    top: 4px;
 	margin-right: -10px;   
 }
 
@@ -332,12 +375,13 @@
 	justify-content: space-between;
 	position: relative;
     bottom: 20px;
-	margin-right: -10px;   
+	margin-left: 5px; 
+    top: 20px;
 }
 
 .fsquare{
     width: 25px;
-	height: 140px;
+	height: 115px;
 	display: inline-flex;
 	flex-direction: column-reverse;
 	justify-content: space-between;
@@ -345,6 +389,28 @@
     bottom: 20px;
 	margin-right: -10px;
 }
+.jsquare{
+    width: 25px;
+	height: 120px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 0px;
+	margin-right: -4px;
+}
+
+.jsquare2{
+    width: 25px;
+	height: 160px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 20px;
+	margin-right: -5px;
+}
+
 
 .f-two{
     width: 25px;
@@ -354,7 +420,7 @@
 	justify-content: space-between;
 	position: relative;
     bottom: 20px;
-	margin-right: -10px;   
+	margin-left: 2px;   
 }
 
 .f-end{
@@ -364,8 +430,56 @@
 	flex-direction: column-reverse;
 	justify-content: space-between;
 	position: relative;
-   bottom: 100px;
-	margin-right: -10px;   
+   bottom: 100px;  
+    margin-left: -5px;
+    top: -123px;
+}
+
+.r-one{
+    width: 25px;
+	height: 125px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+   bottom:0px;  
+    margin-left: 3px;
+    top: -90px;
+}
+.nmiddle{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+   bottom: 100px;  
+    margin-left: 3px;
+    top: -100px;
+}
+
+.n-stem{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+   bottom: 100px;  
+    margin-left: 3px;
+    top: -3px;
+}
+
+.n-end{
+    width: 25px;
+	height: 115px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+   bottom: 0px;
+    margin-left: -5px;
+    top: 20px;
 }
 
 .p-counter{
@@ -392,22 +506,54 @@
 
 .hsquare{
     width: 25px;
-	height: 140px;
+	height: 135px;
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: space-between;
 	position: relative;
     bottom: 30px;
+    top: 90px;
 	margin-right: -10px;   
 }
+
 .hsquare3{
     width: 25px;
-	height: 140px;
+	height: 135px;
 	display: inline-flex;
 	flex-direction: column-reverse;
 	position: relative;
    bottom: 0px;
-	margin-right: -10px;   
+	margin-left: 3px;   
+}
+
+.wsquare3{
+    width: 25px;
+	height: 135px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 0px;
+	margin-left: -5px;   
+}
+.lsquare{
+    width: 25px;
+	height: 115px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 0px;
+    top: 25px;
+	margin-left: 3px;   
+}
+.lsquare2{
+    width: 25px;
+	height: 115px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 0px;
+    top: 5px;
+	margin-left: -5px;   
 }
 
 .rectanglej{
@@ -420,6 +566,16 @@
 	margin-right: -10px;   
 }
 
+.rectanglev{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 20px;
+	margin-left: -5px;   
+}
+
 .rectanglel{
     width: 25px;
 	height: 140px;
@@ -429,6 +585,18 @@
    bottom: 0px;
 	margin-right: -10px;   
 }
+
+.rectanglet{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	position: relative;
+   bottom: 0px;
+    top: -28px;
+	margin-right: -10px;   
+}
+
 
 .k-end{
     width: 25px;
@@ -453,7 +621,7 @@
 
 .stem-dot{
     width: 25px;
-	height: 140px;
+	height: 135px;
 	display: inline-flex;
 	flex-direction: column-reverse;
 	position: relative;
@@ -515,14 +683,27 @@
     bottom: 0px;
 }
 
+.twomiddle{
+    width: 25px;
+	height: 138px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 0px;
+    margin-left: 5px;
+    top: -20px;
+}
+
 .two-end{
     width: 25px;
 	height: 138px;
 	display: inline-flex;
 	flex-direction: column-reverse;
 	position: relative;
-    margin-left: -9px;
+    margin-left: -5px;
     bottom: 0px;
+    top: -20px;
 }
 
 .y-middle{
@@ -552,13 +733,13 @@
 
 .y-start{
 	width: 25px;
-	height: 113px;
+	height: 140px;
 	display: inline-flex;
 	flex-direction: column-reverse;
 	justify-content: space-between;
 	position: relative;
 	bottom: 124px;
-	margin-right: -10px;
+	margin-right: -8px;
 }
 
 .four-start{
@@ -570,6 +751,30 @@
 	position: relative;
 	bottom: 118px;
 	margin-right: -10px;
+}
+
+.seven-middle{
+	width: 25px;
+	height: 113px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+	bottom: 118px;
+	margin-right: -5px;
+    margin-left: -2px;
+}
+
+.fullseven{
+	width: 25px;
+	height: 120px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+	bottom: 2px;
+	margin-right: -5px;
+    margin-left: -2px;
 }
 
 .t-lower{
@@ -593,16 +798,40 @@
 	bottom: 100px;
 	margin-right: -10px;
 }
-
-.s-one{
-    width: 25px;
-	height: 118px;
+.seven-upper{
+	width: 25px;
+	height: 113px;
 	display: inline-flex;
 	flex-direction: column-reverse;
 	justify-content: space-between;
 	position: relative;
-    bottom: 0px;
-	margin-right: -10px;   
+	bottom: 100px;
+	margin-right: -3px;
+}
+
+
+.two-upper{
+	width: 25px;
+	height: 113px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+	bottom: 100px;
+	margin-right: -10px;
+}
+
+.s-one{
+    width: 25px;
+	height: 125px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 20px;
+    top: 5px;
+	margin-right: -2px; 
+    margin-left: -1px;
 }
 .s-long{
     width: 25px;
@@ -611,8 +840,9 @@
 	flex-direction: column-reverse;
 	justify-content: space-between;
 	position: relative;
-    bottom: 0px;
-	margin-right: -10px;   
+    bottom: 10px;
+	margin-right: -0px; 
+    margin-left: -4;
 }
 
 .s-three{
@@ -623,8 +853,49 @@
 	justify-content: space-between;
 	position: relative;
     bottom: 20px;
-	margin-right: -10px;   
+    top: -10px;
+	margin-right: -10px;
+    margin-left: -5px;
 }
+
+.z-three{
+    width: 25px;
+	height: 120px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 20px;
+    top: -11px;
+	margin-right: -10px;
+    margin-left: -5px;
+}
+
+.z-long{
+    width: 25px;
+	height: 140px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 10px;
+    top: -11px;
+	margin-right: -0px; 
+    margin-left: 3px;;
+}
+.z-one{
+    width: 25px;
+	height: 125px;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	position: relative;
+    bottom: 24px;
+    top: 4px;
+	margin-right: -2px; 
+    margin-left: -5px;
+}
+
 
 .g-one{
     width: 25px;
@@ -655,6 +926,7 @@
 	justify-content: space-between;
 	position: relative;
    bottom: 0px;
+    top: 23px;
 	margin-right: -10px;   
 }
 
@@ -741,6 +1013,65 @@
     opacity: 0%;
 }
 
+.A {display: flex;
+flex-wrap: nowrap;}
+.B {display: flex;
+flex-wrap: nowrap;}
+.C {display: flex;
+flex-wrap: nowrap;}
+.D {display: flex;
+flex-wrap: nowrap;}
+.E {display: flex;
+flex-wrap: nowrap;}
+.F {display: flex;
+flex-wrap: nowrap;}
+.G {display: flex;
+flex-wrap: nowrap;}
+.H {display: flex;
+flex-wrap: nowrap;}
+.I {display: flex;
+flex-wrap: nowrap;}
+.J {display: flex;
+flex-wrap: nowrap;}
+.K {display: flex;
+flex-wrap: nowrap;}
+.L {display: flex;
+flex-wrap: nowrap;}
+.M {display: flex;
+flex-wrap: nowrap;}
+.N {display: flex;
+flex-wrap: nowrap;}
+.O {display: flex;
+flex-wrap: nowrap;}
+.P {display: flex;
+flex-wrap: nowrap;}
+.Q {display: flex;
+flex-wrap: nowrap;}
+.R {display: flex;
+flex-wrap: nowrap;}
+.S {display: flex;
+flex-wrap: nowrap;}
+.T {display: flex;
+flex-wrap: nowrap;}
+.U {display: flex;
+flex-wrap: nowrap;}
+.V {display: flex;
+flex-wrap: nowrap;}
+.W {display: flex;
+flex-wrap: nowrap;}
+.X {display: flex;
+flex-wrap: nowrap;}
+.Y {display: flex;
+flex-wrap: nowrap;}
+.Z {display: flex;
+flex-wrap: nowrap;}
+.number0 {display: flex;
+flex-wrap: nowrap;}
+.number2 {display: flex;
+flex-wrap: nowrap;}
+.number7 {display: flex;
+flex-wrap: nowrap;}
+
 @keyframes baseball-animate{
     0%{background-color: yellow;}
     15%{background-color: lime;}
@@ -800,5 +1131,30 @@
     
 }
 
+/* TABLET */
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+
+    div.container{
+        @keyframes baseball-animate{
+    0%{background-color: red;}
+    15%{background-color: white;}
+    30%{background-color: red;}
+    45%{background-color: white;}
+    70%{background-color: red;}
+    90%{background-color: white;}
+    100%{background-color: red;}
+    
+}
+    }
+    }
+}
+    
+    
+    
+/* IPHONE */
+
+@media screen and (max-width: 768px){
+    
+}
 
 
