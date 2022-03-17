@@ -484,7 +484,7 @@
 
 .p-counter{
 	display: inline-flex;
-	flex-direction: column-reverse;
+    flex-direction: column-reverse;
 	justify-content: space-between;
 	position: relative;
     align-items: center;
