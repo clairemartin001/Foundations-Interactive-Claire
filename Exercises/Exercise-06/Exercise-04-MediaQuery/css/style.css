@@ -1,0 +1,107 @@
+@import url();
+
+/* MISSED CLASS SO COULDNT FOLLOW ALONG IN CLASS...*/
+
+h1{ color: red;font-style: italic;
+font-size: 60px;}
+
+p{font-family: monospace;
+font-size: 20px}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background: red;
+  border-radius: 50%;
+  display: inline-flex;
+}
+
+body {
+
+}
+
+/* Text
+-------------------------------------------------- */
+
+
+
+/* Image
+-------------------------------------------------- */
+
+
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+  /* text */
+    body{
+        background-color: black;
+    }
+    
+    h1{ font-size: 30px;}
+    
+    p{
+        font-size: 15px;
+        color: aqua;
+    }
+  
+    div.circle{
+        width: 100px;
+        height: 100px;
+    }
+  /* image */
+
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+  /* text */
+    h1{
+        font-size: 20px;
+    }
+        p{
+        font-size: 30px;
+        color: red;
+    }
+    
+        div.circle{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        background-color: black;
+            }
+
+  /* image */
+
+
+
+
+/* Orientation
+-------------------------------------------------- */
+
+@media (orientation: landscape) {
+
+  /* text */
+
+  /* image */
+
+    h1{
+        font-size: 90px;
+        color: aqua;
+    }
+        p{
+        font-size: 50px;
+        color: blue;
+    }
+    
+        div.circle{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        background-color: aqua;
+            }
+
