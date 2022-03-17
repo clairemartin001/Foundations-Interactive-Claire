@@ -1015,60 +1015,88 @@
 
 .A {display: flex;
 flex-wrap: nowrap;}
+
 .B {display: flex;
 flex-wrap: nowrap;}
+
 .C {display: flex;
 flex-wrap: nowrap;}
+
 .D {display: flex;
 flex-wrap: nowrap;}
+
 .E {display: flex;
 flex-wrap: nowrap;}
+
 .F {display: flex;
 flex-wrap: nowrap;}
+
 .G {display: flex;
 flex-wrap: nowrap;}
+
 .H {display: flex;
 flex-wrap: nowrap;}
+
 .I {display: flex;
 flex-wrap: nowrap;}
+
 .J {display: flex;
 flex-wrap: nowrap;}
+
 .K {display: flex;
 flex-wrap: nowrap;}
+
 .L {display: flex;
 flex-wrap: nowrap;}
+
 .M {display: flex;
 flex-wrap: nowrap;}
+
 .N {display: flex;
 flex-wrap: nowrap;}
+
 .O {display: flex;
 flex-wrap: nowrap;}
+
 .P {display: flex;
 flex-wrap: nowrap;}
+
 .Q {display: flex;
 flex-wrap: nowrap;}
+
 .R {display: flex;
 flex-wrap: nowrap;}
+
 .S {display: flex;
 flex-wrap: nowrap;}
+
 .T {display: flex;
 flex-wrap: nowrap;}
+
 .U {display: flex;
 flex-wrap: nowrap;}
+
 .V {display: flex;
 flex-wrap: nowrap;}
+
 .W {display: flex;
 flex-wrap: nowrap;}
+
 .X {display: flex;
 flex-wrap: nowrap;}
+
 .Y {display: flex;
 flex-wrap: nowrap;}
+
 .Z {display: flex;
 flex-wrap: nowrap;}
+
 .number0 {display: flex;
 flex-wrap: nowrap;}
+
 .number2 {display: flex;
 flex-wrap: nowrap;}
+
 .number7 {display: flex;
 flex-wrap: nowrap;}
 
@@ -1131,30 +1159,15 @@ flex-wrap: nowrap;}
     
 }
 
-/* TABLET */
-@media only screen and (min-width : 768px) and (max-width : 1024px){
 
+@media only screen and (min-width : 800px) and (max-width : 1500px){
+    body{background-color: black;}
+    
     div.container{
-        @keyframes baseball-animate{
-    0%{background-color: red;}
-    15%{background-color: white;}
-    30%{background-color: red;}
-    45%{background-color: white;}
-    70%{background-color: red;}
-    90%{background-color: white;}
-    100%{background-color: red;}
-    
-}
-    }
+        
     }
 }
     
-    
-    
-/* IPHONE */
 
-@media screen and (max-width: 768px){
-    
-}
 
 
