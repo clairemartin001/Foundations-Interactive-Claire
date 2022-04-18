@@ -1,0 +1,66 @@
+
+
+.background{ 
+    background-image: url('clouds.jpg');
+    width: 100%;
+    height: 900px;
+}
+
+
+
+
+.bed {
+	width: 900px;
+	height: 900px;
+	margin: 100px auto;
+	position: relative;
+}
+
+.pillow{
+    position: absolute;
+    left: 58%;
+    bottom: 78%;
+    
+}
+
+.pillow2{
+    position: absolute;
+    left: 20%;
+    bottom: 78%;
+    
+}
+
+.me{
+    position: absolute;
+    left: 50%;
+    bottom: 60%;
+}
+
+.blanket{
+    position: absolute;
+    left: 20%; 
+    top: 5%; 
+}
+
+.coffeecup{
+    position: absolute;
+    left: 10%; 
+    top: 5%; 
+}
+
+.croissant{ 
+    background-image: url(croissant.png);
+    position: absolute; 
+    left: 80%; 
+    top: 30%;
+}
+
+.crumns{
+    background-image: url(crumbs.psd)
+    
+}
+
+
+
+
+

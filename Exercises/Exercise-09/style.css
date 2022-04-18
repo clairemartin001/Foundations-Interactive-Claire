@@ -1,0 +1,62 @@
+
+
+.appleorchard {
+	width: 900px;
+	height: 900px;
+	margin: 100px auto;
+	position: relative;
+}
+
+#tree{
+    width: 120%;
+}
+
+#apple{
+    width: 7%;
+    position: absolute;
+    left: 58%;
+    bottom: 78%;
+    
+}
+
+#apple2{
+    width: 7%;
+    position: absolute;
+    left: 40%;
+    bottom: 50%;
+}
+
+#apple3{
+    width: 7%;
+    position: absolute;
+    left: 80%;
+    bottom: 50%;
+}
+
+#apple4{
+    width: 7%;
+    position: absolute;
+    left: 70%;
+    bottom: 40%;
+}
+
+#apple5{
+    width: 7%;
+    position: absolute;
+    left: 20%;
+    bottom: 70%;
+}
+
+#basket{
+    width: 35%;
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+}
+
+#h4{
+    position: absolute;
+    left: 0%;
+    bottom: 10%;
+    color: red;
+}
