@@ -49,16 +49,11 @@
 }
 
 .croissant{ 
-    background-image: url(croissant.png);
     position: absolute; 
     left: 80%; 
     top: 30%;
 }
 
-.crumns{
-    background-image: url(crumbs.psd)
-    
-}
 
 
 
