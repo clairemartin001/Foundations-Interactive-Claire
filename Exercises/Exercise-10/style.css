@@ -1,0 +1,57 @@
+:root{
+    --second: 1s; 
+    --minute: calc(var(--second)*60);
+    --hour: calc(var(--minute)*60);
+    --half: calc(var(--hour)*12); 
+    --day: calc(var(--half)*2);
+    --setTimeHour: 4; 
+    --setTimeMinite: 42; 
+    --timeShifter: calc(var(--setTimeHour)*var(--hour));
+    --timeShiftMinute: calc(var(--setTimeMinute)*var(--minute));
+}
+
+
+@keyframes rotate{ 
+    from {transform: rotate(0);}
+    to {transform: rotate(1turn);}
+}
+
+.clockface{ 
+    width: 300px; 
+    height: 300px; 
+    border-radius: 100%; 
+    position: relative; 
+    background-color: black;
+    transform: rotate(180deg);
+}
+
+.seconds{
+    width: 5px; 
+    height: 150px; 
+    background-color: white; 
+    animation: rotate steps(60) var(--minute) infinite; 
+}
+
+.hand{
+    position: absolute;
+    left: 50%; 
+    top: 50%; 
+    transform-origin: center 0;
+    
+}
+
+.minutes{ 
+width: 10px; 
+height: 150px;
+ background-color: yellow; 
+    animation: rotate steps(60) var(--hour) infinite; 
+    animation-delay: calc(var(timeShiftMinute)*-1)
+}
+
+.hours{ 
+width: 15px; 
+height: 150px;
+background-color: yellow; 
+animation: rotate steps(12) var(--half) infinite; 
+animation-delay: calc(var(timeShiftHour)*-1)
+}

@@ -1,0 +1,43 @@
+{ box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+
+
+
+.parent {
+  width: 50%;
+  display: inline-block;
+  padding: .5em;
+}
+
+.parent.perspective {
+  perspective: 20em;
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  grid-gap: 5px;
+}
+}
+
+.child {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.parent.perspective .child {
+  transform: rotateX(50deg);
+  background: tomato;
+}
+
+.parent.transform .child {
+  transform: perspective(50em) rotateX(50deg);
+  background: deepskyblue;
+}
+
+h1 {
+  font-size: 1em;
+}

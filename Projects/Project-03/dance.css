@@ -1,0 +1,653 @@
+
+.fakebackground{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    position: absolute;
+     top: 0px;
+    animation: fadeout 5s forwards; 
+}
+
+
+.background{
+    width: 100%;
+    height: 900px;
+    background-image: url(glitterdancefloor.png);
+}
+
+
+
+
+#header{
+font-family: "Pacifico";
+color: lime;
+font-size: 50px;
+position: absolute; 
+top: -2%;
+left: 5%;
+}
+
+#h4{
+font-family: "Fredoka One";
+color: black;
+font-size: 15px;
+position: absolute; 
+top: 5%;
+left: 45%;
+    background-color: lime;
+}
+
+#h3{
+font-family: "Fredoka One";
+color: black;
+font-size: 16px;
+position: absolute; 
+top: 12%;
+left: 5%;
+    background-color: hotpink;
+}
+
+
+
+
+#glitterbackground{
+        opacity: 70%;
+    animation: glitter 1s ease infinite reverse;
+}
+
+.intro{
+    width: 500px;
+    height: 500px;
+    position: absolute; 
+    top: 4px;
+    opacity: 0%;
+    animation: introslide 4s ease; 
+}
+
+.dancefloor{ 
+    position: absolute; 
+    right: 150px;
+    top: 360px;
+perspective: 1000px;}
+
+.square{
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    transform: rotatex(70deg);
+    animation: coolfloor 3s ease infinite reverse;
+
+}
+
+#playbutton{
+    width: 35px;
+    height: 35px;
+    border-radius:100%;
+    position: absolute;
+    left: 14.2%;
+    top: 530px; 
+    font-family: "Pacifico"; 
+    background-color: lime; 
+    
+}
+
+
+.medancing{
+    width: 500px;
+    height: 800px;
+    position: absolute;
+    left: 5%;
+    top: -10%;
+
+    
+}
+
+.blake{
+    width: 400px;
+    height: 400px;
+    position: absolute; 
+    left: 60%;
+    top: 10px;
+    animation: backandforth 4s ease infinite reverse;
+}
+
+.eli{
+    width: 300px;
+    height: 500px;
+    position: absolute; 
+    left: 35%; 
+    top: 10px;
+    opacity: 0%;
+    background-size: contain;
+    background-image: url(eli.png);
+    animation: eliout 5s forwards; 
+
+}
+
+.dancingeli{
+	width: 500px;
+	height: 650px;
+	background-image: url(elidancing1.png) !important; /* !important overrides the previous image */
+	background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+.disconote{
+    width: 200px;
+    height: 200px;
+    background-image: url(disconote.png); 
+    background-size: contain; 
+    background background-repeat: no-repeat;
+}
+
+
+
+
+
+.confetti1{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    position: absolute; 
+    top: 0px; 
+    left:2%;
+        opacity: 0%;
+    animation: rain 6s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti2{
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+    position: absolute; 
+    top: 0px; 
+    left:5%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 7s;
+}
+
+.confetti3{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute; 
+    top: 0px; 
+    left:10%;
+        opacity: 0%;
+    animation: rain 3s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti4{
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    position: absolute; 
+    top: 0px; 
+    left:20%;
+        opacity: 0%;
+    animation: rain 5s ease infinite;
+    animation-delay: 6s;
+}
+
+.confetti5{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute; 
+    top: 0px; 
+    left:22%;
+        opacity: 0%;
+    animation: rain 7s ease infinite;
+    animation-delay: 8s;
+}
+
+.confetti6{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    position: absolute; 
+    top: 0px; 
+    left:25%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 6s;
+}
+
+.confetti7{
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+    position: absolute; 
+    top: 0px; 
+    left:26%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 7s;
+}
+
+.confetti8{
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    position: absolute; 
+    top: 0px; 
+    left:30%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti9{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    position: absolute; 
+    top: 0px; 
+    left:31%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 6s;
+}
+
+.confetti10{
+    width: 10px;
+    height: 10px;
+    background-color: hotpink;
+    position: absolute; 
+    top: 0px; 
+    left:34%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti11{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    position: absolute; 
+    top: 0px; 
+    left:36%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 6s;
+}
+
+.confetti12{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute; 
+    top: 0px; 
+    left:37%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti13{
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+    position: absolute; 
+    top: 0px; 
+    left:40%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 6s;
+}
+
+.confetti14{
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    position: absolute; 
+    top: 0px; 
+    left:37%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 6s;
+}
+
+.confetti15{
+    width: 10px;
+    height: 10px;
+    background-color: orangered;
+    position: absolute; 
+    top: 0px; 
+    left:42%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti16{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute; 
+    top: 0px; 
+    left:44%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 7s;
+}
+
+.confetti17{
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+    position: absolute; 
+    top: 0px; 
+    left:47%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti18{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    position: absolute; 
+    top: 0px; 
+    left:51%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 8s;
+}
+
+.confetti19{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    position: absolute; 
+    top: 0px; 
+    right:2%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti20{
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+    position: absolute; 
+    top: 0px; 
+    right:5%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5.5s;
+}
+
+.confetti21{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute; 
+    top: 0px; 
+    right:10%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti22{
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    position: absolute; 
+    top: 0px; 
+    right:20%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 8s;
+}
+
+.confetti23{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute; 
+    top: 0px; 
+    right:22%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti24{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    position: absolute; 
+    top: 0px; 
+    right:25%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 6s;
+}
+
+.confetti25{
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+    position: absolute; 
+    top: 0px; 
+    right:26%;
+        opacity: 0%;
+    animation: rain 8s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti26{
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    position: absolute; 
+    top: 0px; 
+    right:30%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 6s;
+}
+
+.confetti27{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    position: absolute; 
+    top: 0px; 
+    right:31%;
+        opacity: 0%;
+    animation: rain 2s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti28{
+    width: 10px;
+    height: 10px;
+    background-color: hotpink;
+    position: absolute; 
+    top: 0px; 
+    right:34%;
+        opacity: 0%;
+    animation: rain 6s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti29{
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    position: absolute; 
+    top: 0px; 
+    right:36%;
+        opacity: 0%;
+    animation: rain 5s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti30{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute; 
+    top: 0px; 
+    right:37%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti31{
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+    position: absolute; 
+    top: 0px; 
+    right:40%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti32{
+    width: 10px;
+    height: 10px;
+    background-color: pink;
+    position: absolute; 
+    top: 0px; 
+    right:37%;
+       opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti33{
+    width: 10px;
+    height: 10px;
+    background-color: orangered;
+    position: absolute; 
+    top: 0px; 
+    right:42%;
+        opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti34{
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute; 
+    top: 0px; 
+    right:44%;
+        opacity: 0%;
+    animation: rain 3s ease infinite;
+    animation-delay: 5s;
+}
+
+.confetti35{
+    width: 10px;
+    height: 10px;
+    background-color: lime;
+    position: absolute; 
+    top: 0px; 
+    right:47%;
+    opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 6s;
+}
+
+.confetti36{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    position: absolute; 
+    top: 0px; 
+    right:52%;
+    opacity: 0%;
+    animation: rain 4s ease infinite;
+    animation-delay: 5s;
+}
+
+#clickme{
+    font-family: "Pacifico";
+    background-color: lime;
+    position: absolute; 
+    right: 2%; 
+    bottom: 3%; 
+    opacity: 0%; 
+    animation: bye 1s ease forwards; 
+    animation-delay: 10s
+}
+
+
+
+@keyframes introslide{
+       0%{left: 0%; opacity: 100%;}
+       100%{left: 100%; opacity: 100%;}
+
+}
+
+
+@keyframes glitter{
+    0%{filter: invert(1);}
+    15%{filter: invert(0);}
+    30%{filter: invert(1);}
+    45%{filter: invert(0);}
+    70%{filter: invert(1);}
+    90%{filter: invert(0);}
+    100%{filter: invert(1);}
+    
+}
+
+@keyframes backandforth{
+    0%{left: 60%;}
+    50%{left: 57%; }
+    100%{left: 60%;}
+}
+
+@keyframes coolfloor{ 
+     0%{background-color: lawngreen;}
+    15%{background-color: white;}
+    30%{background-color: lime;}
+    45%{background-color: white;}
+    70%{background-color: lawngreen;}
+    90%{background-color: white;}
+    100%{background-color: lime;}
+    
+}
+
+@keyframes fadeout { 
+    0%{opacity: 100%;}
+    99%{opacity: 100%;}
+    100%{opacity: 0%;}
+}
+
+@keyframes eliout { 
+    0%{opacity: 0%;}
+    99%{opacity: 0%;}
+    100%{opacity: 100%;}
+}
+
+
+@keyframes rain{
+    1%{opacity: 100%;}
+    100%{top: 900px; transform: rotate(360deg)}
+}
+
+@keyframes bye{
+    0%{opacity: 100%;}
+    100%{opacity: 100%;}
+}
+
+
+

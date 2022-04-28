@@ -1,0 +1,153 @@
+.background{
+    width: 100%; 
+    height: 900px;
+    background-image: url(bwstatic.png);  
+    animation: static .5s ease infinite; 
+}
+
+h2{
+    font-family: "Pacifico"; 
+    font-size: 50px;
+    color: lime; 
+    position: absolute;
+    top: 210px; 
+    left: 140px;
+}
+
+p{
+    font-family: "Fredoka One";  
+    font-size: 20px;
+    position: absolute; 
+    left: 64%; 
+    top:380px;
+    color:aqua;
+
+}
+
+
+
+.tv{
+    position: absolute; 
+    width: 100%; 
+    top: 8%; 
+    left: 25%; 
+    animation: tvshrink 2s forwards;
+    animation-delay: 7.5s;
+}
+
+.tvscreen{
+    width: 550px; 
+    height: 450px; 
+    position: absolute; 
+    top: 20%; 
+    left: 34%; 
+    background-image: url(static.png);
+    animation: screenbyebye 2s ease forwards;
+    animation-delay: 5s;
+}
+
+#croissantdown{
+    width: 100px;
+    position: absolute; 
+    top: 0px; 
+    left: 20%;
+    opacity: 0%;
+      animation: falling 4s ease 3;
+    animation-delay: 1s;
+}
+
+#croissantdown2{
+    width: 100px;
+    position: absolute; 
+    top: 0px; 
+    left: 80%;
+    opacity: 0%;
+      animation: falling 3s ease 3;
+}
+
+#pizza{
+    width: 200px;
+    position: absolute; 
+    top: 0px; 
+    left: 55%;
+    opacity: 0%;
+      animation: falling 5s ease 2;
+    animation-delay: 1.5s;
+}
+
+#beer{
+    width: 45px;
+    position: absolute; 
+    top: 0px; 
+    left: 5%;
+    opacity: 0%;
+      animation: falling 4s ease 3; 
+}
+
+#beer2{
+    width: 45px;
+    position: absolute; 
+    top: 0px; 
+    left: 39%;
+    opacity: 0%;
+    animation: falling 6s ease 2;
+}
+
+#disco{
+    width: 100px;
+    position: absolute; 
+    top: 0px; 
+    left: 14%;
+    opacity: 0%;
+    animation: falling 3s ease 3;
+}
+
+#disco2{
+    width: 100px;
+    position: absolute; 
+    top: 0px; 
+    left: 90%;
+    opacity: 0%;
+    animation: falling 5s ease 2;
+    animation-delay: 1s;
+}
+
+
+
+
+@keyframes static {
+    100%{filter: invert(100%);}
+}
+
+@keyframes tvshrink{
+    99%{transform: scale(.1,.1); opacity: 100%; left: 10%}
+    100%{transform: scale(.1,.1); opacity:0%;left: 9%;}
+}
+
+@keyframes screenbyebye{
+    5%{left: 30%;}
+    10%{top: 30%;}
+    15%{left: 50%;}
+    20%{top: 10%;}
+    25%{left: 30%;}
+    30%{top: 30%;}
+    35%{bottom: 10%;}
+     40%{left: 30%;}
+    45%{top: 30%;}
+    50%{left: 50%;}
+    55%{top: 10%;}
+    60%{left: 30%;}
+    65%{top: 30%;}
+    70%{bottom: 10%;}
+     75%{left: 30%;}
+    80%{top: 30%;}
+    90%{left: 15%;}
+    99%{left: 100%;opacity: 100%}
+    100%{left: 100%; opacity: 0%;}
+}
+
+@keyframes falling{
+    1%{opacity: 100%}
+    100%{top: 100%; transform: rotate(360deg); opacity: 100%}
+}
+
