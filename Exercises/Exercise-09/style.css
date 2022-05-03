@@ -10,6 +10,24 @@
     --timeShiftMinute: calc(var(--setTimeMinute)*var(--minute));
 }
 
+h1{
+    font-family: monospace; 
+    color: hotpink;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: monospace; 
+}
+
+p{
+    font-family: sans-serif;
+}
+
+
 
 @keyframes rotate{ 
     from {transform: rotate(0);}
@@ -53,5 +71,40 @@ width: 15px;
 height: 150px;
 background-color: red; 
 animation: rotate steps(12) var(--half) infinite; 
+animation-delay: calc(var(timeShiftHour)*-1)
+}
+
+
+
+.clockfacenate{ 
+    width: 300px; 
+    height: 300px; 
+    border-radius: 100%; 
+    position: relative; 
+    background-color: skyblue;
+    transform: rotate(180deg);
+}
+
+.secondsnate{
+    width: 5px; 
+    height: 150px; 
+    background-color: lightgoldenrodyellow; 
+    animation: rotate steps(60) calc(var(--minute)*2) infinite; 
+}
+
+
+.minutesnate{ 
+width: 10px; 
+height: 150px;
+ background-color: white; 
+    animation: rotate steps(60) calc(var(--hour)*2) infinite; 
+    animation-delay: calc(var(timeShiftMinute)*-1)
+}
+
+.hoursnate{ 
+width: 15px; 
+height: 150px;
+background-color: red; 
+animation: rotate steps(12) calc(var(--half)*2) infinite; 
 animation-delay: calc(var(timeShiftHour)*-1)
 }
