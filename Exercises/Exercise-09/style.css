@@ -10,9 +10,18 @@
     --timeShiftMinute: calc(var(--setTimeMinute)*var(--minute));
 }
 
+.background{ 
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+
+
+
 h1{
     font-family: monospace; 
-    color: hotpink;
+    color: red;
 }
 
 p{
@@ -89,7 +98,7 @@ animation-delay: calc(var(timeShiftHour)*-1)
     width: 5px; 
     height: 150px; 
     background-color: lightgoldenrodyellow; 
-    animation: rotate steps(60) calc(var(--minute)*2) infinite; 
+    animation: rotate steps(60) calc(var(--minute)*3) infinite; 
 }
 
 
@@ -97,7 +106,7 @@ animation-delay: calc(var(timeShiftHour)*-1)
 width: 10px; 
 height: 150px;
  background-color: white; 
-    animation: rotate steps(60) calc(var(--hour)*2) infinite; 
+    animation: rotate steps(60) calc(var(--hour)*3) infinite; 
     animation-delay: calc(var(timeShiftMinute)*-1)
 }
 
@@ -105,6 +114,47 @@ height: 150px;
 width: 15px; 
 height: 150px;
 background-color: red; 
-animation: rotate steps(12) calc(var(--half)*2) infinite; 
+animation: rotate steps(12) calc(var(--half)*3) infinite; 
+animation-delay: calc(var(timeShiftHour)*-1)
+}
+
+
+
+
+
+
+
+
+
+.clockfaceolivia{ 
+    width: 300px; 
+    height: 300px; 
+    border-radius: 100%; 
+    position: relative; 
+    background-color: green;
+    transform: rotate(180deg);
+}
+
+.secondsolivia{
+    width: 5px; 
+    height: 150px; 
+    background-color: white; 
+    animation: rotate steps(60) calc(var(--minute)*.25) infinite; 
+}
+
+
+.minutesolivia{ 
+width: 10px; 
+height: 150px;
+ background-color: lime; 
+    animation: rotate steps(60) calc(var(--hour)*.25) infinite; 
+    animation-delay: calc(var(timeShiftMinute)*-1)
+}
+
+.hoursolivia{ 
+width: 15px; 
+height: 150px;
+background-color: yellow; 
+animation: rotate steps(12) calc(var(--half)*.25) infinite; 
 animation-delay: calc(var(timeShiftHour)*-1)
 }
