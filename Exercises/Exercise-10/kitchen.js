@@ -9,4 +9,3 @@ $('#oven').droppable({
         $('#apples').remove('#apples');
 	}
 });
-

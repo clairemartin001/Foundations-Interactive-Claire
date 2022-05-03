@@ -1,69 +1,58 @@
-
-
-.appleorchard {
-	width: 900px;
-	height: 900px;
-	margin: 100px auto;
-	position: relative;
+:root{
+    --second: 1s; 
+    --minute: calc(var(--second)*60);
+    --hour: calc(var(--minute)*60);
+    --half: calc(var(--hour)*12); 
+    --day: calc(var(--half)*2);
+    --setTimeHour: 4; 
+    --setTimeMinite: 42; 
+    --timeShifter: calc(var(--setTimeHour)*var(--hour));
+    --timeShiftMinute: calc(var(--setTimeMinute)*var(--minute));
 }
 
-#tree{
-    width: 120%;
+
+@keyframes rotate{ 
+    from {transform: rotate(0);}
+    to {transform: rotate(1turn);}
 }
 
-#apple{
-    width: 7%;
+.clockface{ 
+    width: 300px; 
+    height: 300px; 
+    border-radius: 100%; 
+    position: relative; 
+    background-image: url(claire.png);
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.seconds{
+    width: 5px; 
+    height: 150px; 
+    background-color: hotpink; 
+    animation: rotate steps(60) var(--minute) infinite; 
+}
+
+.hand{
     position: absolute;
-    left: 58%;
-    bottom: 78%;
+    left: 50%; 
+    top: 50%; 
+    transform-origin: center 0;
     
 }
 
-#apple2{
-    width: 7%;
-    position: absolute;
-    left: 40%;
-    bottom: 50%;
+.minutes{ 
+width: 10px; 
+height: 150px;
+ background-color: navy; 
+    animation: rotate steps(60) var(--hour) infinite; 
+    animation-delay: calc(var(timeShiftMinute)*-1)
 }
 
-#apple3{
-    width: 7%;
-    position: absolute;
-    left: 80%;
-    bottom: 50%;
-}
-
-#apple4{
-    width: 7%;
-    position: absolute;
-    left: 70%;
-    bottom: 40%;
-}
-
-#apple5{
-    width: 7%;
-    position: absolute;
-    left: 20%;
-    bottom: 70%;
-}
-
-#basket{
-    width: 35%;
-    position: absolute;
-    left: 20%;
-    bottom: 5%;
-}
-
-#h4{
-    position: absolute;
-    left: 0%;
-    bottom: 10%;
-    color: red;
-}
-
-#h5{
-    position: absolute;
-    left: 40%;
-    bottom: 0%;
-    text-decoration-color: orange;
+.hours{ 
+width: 15px; 
+height: 150px;
+background-color: red; 
+animation: rotate steps(12) var(--half) infinite; 
+animation-delay: calc(var(timeShiftHour)*-1)
 }
