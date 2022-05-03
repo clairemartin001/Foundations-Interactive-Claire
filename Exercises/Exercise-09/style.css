@@ -21,8 +21,7 @@
     height: 300px; 
     border-radius: 100%; 
     position: relative; 
-    background-image: url(claire.png);
-    background-size: cover;
+    background-color: lightgoldenrodyellow;
     transform: rotate(180deg);
 }
 
